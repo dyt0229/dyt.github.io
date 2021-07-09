@@ -205,7 +205,7 @@ MyPlane.prototype.boom=function () {
 			this.domObj.remove();
 			this.hpBox.remove();
 			alert("game over!当前得分"+this.allScore+"分! 加油再战！");
-			location.href = "airplanebeat.html";
+			location.href = "index.html";
 		}
 		this.domObj.style.backgroundImage="url("+this.dieImgs[ord]+")";
 		
